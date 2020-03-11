@@ -235,7 +235,7 @@ Begin VB.Form FormMainWindow
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H00FFFF00&
+         ForeColor       =   &H0000FF00&
          Height          =   255
          Left            =   165
          TabIndex        =   15
@@ -460,7 +460,7 @@ Begin VB.Form FormMainWindow
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H00FFFF00&
+         ForeColor       =   &H0000FF00&
          Height          =   255
          Left            =   120
          TabIndex        =   35
@@ -641,7 +641,7 @@ Begin VB.Form FormMainWindow
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H00FFFF00&
+         ForeColor       =   &H0000FF00&
          Height          =   255
          Left            =   150
          TabIndex        =   8
@@ -657,7 +657,7 @@ Begin VB.Form FormMainWindow
          Height          =   300
          Left            =   2650
          Shape           =   3  'Circle
-         Top             =   2950
+         Top             =   2970
          Width           =   300
       End
       Begin VB.Line LineAnalogPower 
@@ -665,8 +665,8 @@ Begin VB.Form FormMainWindow
          BorderWidth     =   3
          X1              =   2800
          X2              =   1000
-         Y1              =   3100
-         Y2              =   3100
+         Y1              =   3120
+         Y2              =   3120
       End
       Begin VB.Image ImagePanelEnginePower 
          Appearance      =   0  'Flat
@@ -1069,7 +1069,7 @@ Begin VB.Form FormMainWindow
    Begin VB.Frame FramePanelGforce 
       Appearance      =   0  'Flat
       BackColor       =   &H00000000&
-      Caption         =   "重力加速度"
+      Caption         =   "体感重力加速度"
       BeginProperty Font 
          Name            =   "宋体"
          Size            =   12
@@ -1095,7 +1095,7 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
@@ -1117,7 +1117,7 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
@@ -1139,7 +1139,7 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
@@ -1161,7 +1161,7 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
@@ -1183,7 +1183,7 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
@@ -1205,7 +1205,7 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
@@ -1227,12 +1227,12 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         ForeColor       =   &H00FFFF00&
+         ForeColor       =   &H0000FF00&
          Height          =   255
          Left            =   2205
          TabIndex        =   28
@@ -1249,7 +1249,7 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
@@ -1271,7 +1271,7 @@ Begin VB.Form FormMainWindow
             Name            =   "MS Serif"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
@@ -1359,7 +1359,7 @@ Begin VB.Form FormMainWindow
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      ForeColor       =   &H0000FFFF&
+      ForeColor       =   &H00FFCC55&
       Height          =   240
       Left            =   945
       TabIndex        =   1
@@ -1379,7 +1379,7 @@ Begin VB.Form FormMainWindow
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      ForeColor       =   &H00FFCC55&
+      ForeColor       =   &H0000FFFF&
       Height          =   270
       Left            =   3780
       TabIndex        =   3
@@ -1411,15 +1411,15 @@ Begin VB.Form FormMainWindow
       Width           =   495
    End
    Begin VB.Menu MenuE 
-      Caption         =   "E-启动/停止设备引擎"
+      Caption         =   "E-启动/关闭引擎"
       Enabled         =   0   'False
    End
    Begin VB.Menu MenuA 
-      Caption         =   "A-向左摆动"
+      Caption         =   "A-向左输出"
       Enabled         =   0   'False
    End
    Begin VB.Menu MenuD 
-      Caption         =   "D-向右摆动"
+      Caption         =   "D-向右输出"
       Enabled         =   0   'False
    End
    Begin VB.Menu Menu1_ 
@@ -1541,31 +1541,31 @@ Dim imageangle As Double
                         enginestatus = 0
                         LabelMessageDisplay.Caption = "引擎已关闭"
                     Case 4
-                        LabelMessageDisplay.Caption = "设备已损毁　请按Ｒ重置"
+                        LabelMessageDisplay.Caption = "设备已损毁！　请按Ｒ重置"
                 End Select
             Case "A"
                 Select Case enginestatus
                     Case 0
-                        LabelMessageDisplay.Caption = "设备关闭　请按Ｅ启动引擎"
+                        LabelMessageDisplay.Caption = "引擎已关闭。　请按Ｅ启动引擎"
                     Case 1
                         If enginestatus = 1 Then
                             power = power * (1.12 - 0.1 * power / 100)
                             f1 = -25 * (100 + power - speed)
                         End If
                     Case 4
-                        LabelMessageDisplay.Caption = "设备已损毁　请按Ｒ重置"
+                        LabelMessageDisplay.Caption = "设备已损毁！　请按Ｒ重置"
                 End Select
             Case "D"
                 Select Case enginestatus
                     Case 0
-                        LabelMessageDisplay.Caption = "设备关闭　请按Ｅ启动引擎"
+                        LabelMessageDisplay.Caption = "引擎已关闭。　请按Ｅ启动引擎"
                     Case 1
                         If enginestatus = 1 Then
                             power = power * (1.12 - 0.1 * power / 100)
                             f1 = 25 * (100 + power - speed)
                         End If
                     Case 4
-                        LabelMessageDisplay.Caption = "设备已损毁　请按Ｒ重置"
+                        LabelMessageDisplay.Caption = "设备已损毁！　请按Ｒ重置"
                 End Select
         End Select
         TextboxControl.Text = ""
@@ -1579,14 +1579,14 @@ Dim imageangle As Double
             Case 0
                 LabelStatusDisplay.Caption = "设备关闭"
             Case 1
-                LabelStatusDisplay.Caption = "运行中"
+                LabelStatusDisplay.Caption = "设备运行中"
             Case 4
                 LabelStatusDisplay.Caption = "设备损毁"
         End Select
 
         'IMAGE
-        If imageangle > 45 Then imageangle = 45
-        If imageangle < -225 Then imageangle = -225
+        If imageangle > 80 Then imageangle = 80
+        If imageangle < -260 Then imageangle = -260
         LineLarge.X2 = LineLarge.X1 + imagelength * Cos(3.14 / 180 * imageangle)
         LineLarge.Y2 = LineLarge.Y1 - imagelength * Sin(3.14 / 180 * imageangle)
         ShapeSmall.Left = LineLarge.X2 - 300
@@ -1594,7 +1594,7 @@ Dim imageangle As Double
 
         'POWER
         If enginestatus = 1 Then
-            If power = 0 Then power = 1
+            If power < 1 Then power = 1
             If power < 10 Then power = power * 1.1
         End If
         If power < 0 Then power = 0
@@ -1612,7 +1612,8 @@ Dim imageangle As Double
 
         'G-FORCE
         pointerCangle = 90 - 60 * (gforce - 1)
-        If gforce < 0 Then gforce = 0
+        If gforce < 0 Then gforce = 0: LabelMessageDisplay.Caption = "失重感强烈！"
+        If gforce > 2 Then LabelMessageDisplay.Caption = "超重感强烈！"
         LineAnalogGforce.X2 = LineAnalogGforce.X1 + pointerClength * Cos(3.14 / 180 * pointerCangle)
         LineAnalogGforce.Y2 = LineAnalogGforce.Y1 - pointerClength * Sin(3.14 / 180 * pointerCangle)
 
@@ -1646,9 +1647,9 @@ Dim imageangle As Double
             'CALC TEMP
             Select Case power
                 Case 0 To 19.999
-                    temp = temp - 0.05 * (temp) / 150
+                    temp = temp - 0.2 * (temp) / 150
                 Case 20 To 29.999
-                    temp = temp - 0.01 * (temp) / 150
+                    temp = temp - 0.1 * (temp) / 150
                 Case 30 To 39.999
                     temp = temp + 0.02 * (240 - temp) / 200
                 Case 40 To 49.999
@@ -1660,16 +1661,9 @@ Dim imageangle As Double
             End Select
 
             'JUDGE TEMP
-            If temp >= 120 And enginestatus = 1 Then
-                LabelMessageDisplay.Caption = "过热注意"
-            End If
-            If temp >= 144 And enginestatus = 1 Then
-                LabelMessageDisplay.Caption = "过热警告"
-            End If
-            If temp >= 168 And enginestatus = 1 Then
-                LabelMessageDisplay.Caption = "设备损毁　引擎起火"
-                enginestatus = 4
-            End If
+            If temp >= 120 Then LabelMessageDisplay.Caption = "过热注意"
+            If temp >= 144 Then LabelMessageDisplay.Caption = "过热警告！"
+            If temp >= 168 And enginestatus = 1 Then enginestatus = 4: LabelMessageDisplay.Caption = "设备损毁！　引擎起火…": MsgBox "设备损毁：引擎起火。请按Ｒ重置。", vbExclamation + vbOKOnly + vbDefaultButton1, "用力过猛！"
 
         'CALC FORCE
 
@@ -1713,8 +1707,9 @@ Dim imageangle As Double
             speed = Abs(3.6 * v1)
 
             'OVERSPEED
-            If speed >= 75 And enginestatus = 1 Then LabelMessageDisplay.Caption = "超速警告　请减速运行"
-            If speed > 96 And enginestatus = 1 Then enginestatus = 4: LabelMessageDisplay.Caption = "设备损毁　无法承受过高速度"
+            If speed >= 60 Then LabelMessageDisplay.Caption = "飞起来了！"
+            If speed >= 75 Then LabelMessageDisplay.Caption = "超速警告！　请减速运行"
+            If speed > 96 And enginestatus = 1 Then enginestatus = 4: LabelMessageDisplay.Caption = "设备损毁！　无法承受过高速度…": MsgBox "设备损毁：无法承受过高速度。请按Ｒ重置。", vbExclamation + vbOKOnly + vbDefaultButton1, "用力过猛！"
 
         'CALC MOVEMENT
             imageangle = imageangle + 360 * (v1 * 0.05) / (6.28 * r1)
