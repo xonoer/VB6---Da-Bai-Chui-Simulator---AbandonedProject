@@ -1,4 +1,4 @@
-# VB6---Da-Bai-Chui-Simulator---AbandonedProject
+# [VB6] Da Bai Chui Simulator [AbandonedProject]
 
 ## Downloads / 下载 / ダウンロード
 
