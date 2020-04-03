@@ -1,10 +1,10 @@
 # [VB6] Da Bai Chui Simulator [AbandonedProject]
 
-## Downloads / 下载 / ダウンロード
+## Downloads / 下载 / ダウンロード / 다운로드
 
 [大摆锤模拟器 v0.50.exe](https://raw.githubusercontent.com/SamToki/VB6---Da-Bai-Chui-Simulator---AbandonedProject/master/%5B2%5D%20EXE/%E5%A4%A7%E6%91%86%E9%94%A4%E6%A8%A1%E6%8B%9F%E5%99%A8%20v0.50.exe)
 
-## Screenshots / 屏幕截图 / スクリーンショット
+## Screenshots / 屏幕截图 / スクリーンショット / 스크린샷
 
 ![](https://github.com/SamToki/VB6---Da-Bai-Chui-Simulator---AbandonedProject/blob/master/%5B3%5D%20Screenshots/Screenshot.png)
 
